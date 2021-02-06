@@ -4,10 +4,11 @@
 #@File : demo4.py
 #@Software:PyCharm
 
-# for i in range(5):
+# a=2
+# for i in range(a):
 #     print(i)
 
-# for i in range(0,10,3):
+# for i in range(1,10,3):
 #     print(i)
 
 # for i in range(-10,-100,-30):
@@ -36,10 +37,17 @@
 #
 # print("1-100求和的sum=%d"%sum)
 
-i=0
+# i=0
+# while i<10:
+#     i=i+1
+#     print("-"*30)
+#     if i==5:
+#         continue  #结束本次循环
+#     print(i)
+
+i=1
 while i<10:
+    for z in range(1,i+1):
+        print("%d*%d=%d"%(i,z,i*z),end="\t")
+    print("\n")
     i=i+1
-    print("-"*30)
-    if i==5:
-        continue  #结束本次循环
-    print(i)

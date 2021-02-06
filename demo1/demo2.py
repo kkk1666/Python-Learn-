@@ -10,18 +10,18 @@ a=10
 print("a=",a)
 '''
 
-'''
-age=18
-print("我的年纪是：%d岁"%age);
-print("我的名字是：%s，我的国籍是：%s"%("校长","中国"));
-print("aaa","bbb","ccc")
-print("www","baidu","com",sep=".")
-print("hello",end="")
-print("world",end="\t")
-print("python",end="\n")
-print("end")
-print("end")
-'''
+
+# age=18
+# print("我的年纪是：%d岁"%age);
+# print("我的名字是：%s，我的国籍是：%s"%("校长","中国"));
+# print("aaa","bbb","ccc")
+# print("www","baidu","com",sep=".")
+# print("hello",end="")
+# print("world",end="\t")
+# print("python",end="\n")
+# print("end")
+# print("end")
+
 
 '''
 password=input("请输入密码:\n")
@@ -39,10 +39,10 @@ print(type(a))
 # print("输入了一个数字：%s" %a)
 
 
-a=int("123")
-print(type(a))
-b=a+200
-print(b)
+# a=int("123")
+# print(type(a))
+# b=a+200
+# print(b)
 
 
 
